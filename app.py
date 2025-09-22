@@ -15,7 +15,7 @@ print("==============================================")
 
 # Setup - use Gemini since OpenAI requires paid API
 import google.generativeai as genai
-genai.configure(api_key="AIzaSyA8ihzp6Ne4C7a9QA0BEFrpabZv_OxkXvA")  # Free to use
+genai.configure(api_key=".......")  # Free to use
 
 def call_gemini(prompt):
     """Use Google Gemini instead of OpenAI"""
